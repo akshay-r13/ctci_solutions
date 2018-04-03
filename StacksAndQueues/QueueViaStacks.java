@@ -29,7 +29,7 @@ class Queue<T> {
 		return s1.isEmpty();
 	}
 
-	public void print(){
+	public void print() throws EmptyStackException{
 		s1.print();
 	}
 
@@ -59,7 +59,11 @@ menu:
 					}
 					break;
 				case 3:
+					try{
 					q.print();
+					}catch(EmptyStackException e){
+						System.out.println("Stack is empty");
+					}
 					break;
 				case 4:
 					try{
