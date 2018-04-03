@@ -1,0 +1,5 @@
+import stack.Stack;
+import java.util.Scanner;
+
+public class StackOfPlates {
+
