@@ -14,7 +14,6 @@ public class RoboGrid {
 		}	
 	}
 	public static boolean findRoute(int i,int j,char[][] grid){
-//		System.out.println("(" + i + " ," + j + " )");
 		grid[i][j] = visited;
 		int n = grid.length - 1;
 		boolean right = false , down = false;
